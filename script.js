@@ -1,20 +1,20 @@
-var first = prompt("Birinchi sonni kiriting: ")
-var second = prompt("Ikkinchi sonni kiriting: ")
-var third = prompt("Uchinchi sonni kiriting")
-if( first>second && first<third || first>third && first<second) {
-    alert("Qiymati o'rtancha son bu: " + first)
+var a = prompt("Birinchi sonni kiriting: ")
+var b = prompt("Ikkinchi sonni kiriting: ")
+var c = prompt("Uchinchi sonni kiriting")
+if( b<a && a<c || c<a && a<b) {
+    alert("Qiymati o'rtancha son bu: " + a)
 }
 
 
 
-else if(second>first && second<third || second>third && second<first){
-    alert("Qiymati o'rtancha son bu: " + second)
+else if(a<b && b<c || c<b && b<a){
+    alert("Qiymati o'rtancha son bu: " + b)
 }
 
 
 
-else if(third>first && third<second || third>second && third<first){
-    alert("Qiymati o'rtancha son bu: " + third)
+else if( a<c && c<b || b<c && c<a){
+    alert("Qiymati o'rtancha son bu: " + c)
 }
 
 
